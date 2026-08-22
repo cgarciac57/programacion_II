@@ -2,7 +2,7 @@
 package Clases;
 
 
-public class Clientes {
+public class Cliente {
     
     int idCliente;
     String NombreCliente;
@@ -13,7 +13,7 @@ public class Clientes {
     String DireccionCliente; 
     String EstadoCliente;
 
-    public Clientes(int idCliente, String NombreCliente, String ApellidoCliente, String NitCliente, String TelefonoCliente, String CorreoECliente, String DireccionCliente, String EstadoCliente) {
+    public Cliente(int idCliente, String NombreCliente, String ApellidoCliente, String NitCliente, String TelefonoCliente, String CorreoECliente, String DireccionCliente, String EstadoCliente) {
         this.idCliente = idCliente;
         this.NombreCliente = NombreCliente;
         this.ApellidoCliente = ApellidoCliente;
